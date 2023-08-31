@@ -1,13 +1,8 @@
-class Cannon {
-  constructor(x, y, width, height, angle) {
-    this.x = x;
-    this.y = y;
-    this.width = width;
-    this.height = height;
-    this.angle = angle;
-    this.cannon_image = loadImage("assets/canon.png");
-    this.cannon_base = loadImage("assets/cannonBase.png");
-  }
+
+//Passo 1: Criar uma classe Cannon
+// Essa classe tem as propriedades 'x, y, width, height, angle'
+//??
+
   display() {
     push();
     translate(this.x, this.y);
