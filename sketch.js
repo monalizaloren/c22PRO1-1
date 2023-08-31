@@ -28,6 +28,7 @@ function setup() {
   tower = Bodies.rectangle(160, 350, 160, 310, options);
   World.add(world, tower);
 
+  //Passo 2: Crie o objeto canhão
   cannon = new Cannon(180, 110, 130, 100, angle);
 }
 
@@ -41,6 +42,6 @@ function draw() {
   imageMode(CENTER);
   image(towerImage,tower.position.x, tower.position.y, 160, 310);
   pop();
-
+//Mostre o objeto canhão na tela
   cannon.display();
 }
